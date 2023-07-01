@@ -1,0 +1,160 @@
+
+
+a#plus:link{text-decoration:none;} /*방문하기 전 값*/
+a#plus:visited{text-decoration:none;} /* 방문한 후 값*/
+a#plus:hover{color:#337ab7;} /*마우스 올려놓을때값 순서고정필수(이 외에 클릭했을때의 :active 가 있음)*/
+a{color:black;text-decoration:none;}
+a#custom:hover{color:black;}
+
+
+select {
+     width:90px;
+	 height: 31.5px;
+     padding:5px;
+     border:1px solid #999;
+     font-family:'Nanumgothic';
+	 text-align: center;
+     border-top-left-radius:3px;
+	 border-bottom-left-radius:3px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance : none;
+}
+	 .simple {
+     width:150px;
+	 height: 31.5px;
+	 padding:5px;
+	 margin-left:-3.5px;
+     border:1px solid #999;
+     font-family:'Nanumgothic';
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance : none;
+}
+	.simpleSearch {
+     width:50px;
+     padding:5px;
+	 height: 31.5px;
+	 margin-left:-3.5px;
+     border:1px solid #999;
+     font-family:'Nanumgothic';
+     border-top-right-radius:3px;
+	 border-bottom-right-radius:3px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance : none;
+}
+
+	select::-ms-expand { /*IE에 잘 안될때 적용시키는 키*/
+    display: none;
+    }
+	.simple::-ms-expand {
+    display: none;
+    }
+	.simpleSearch::-ms-expand {
+    display: none;
+    }
+
+	.dropdown-menuCustom {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+a#gray:hover{
+  background-color:#CCCCCC;
+}
+a#gray:focus{
+  background-color:#CCCCCC;
+}
+
+
+.g {
+  max-width: 350px;
+  font-size: 0.875rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  border-radius: 0.25rem;
+}
+
+.g1 {
+  display: inline-block;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  color: #6c757d;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.toastCustom {
+  max-width: 350px;
+  font-size: 0.875rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+
+.mr-autoCustom,
+.mx-autoCustom {
+  margin-right: auto !important;
+}
+
+.toast-headerCustom {
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  color: #6c757d;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.toast-bodyCustom {
+  padding: 0.75rem;
+}
+
+.tooltip1 {
+  position: absolute;
+  z-index: 1070;
+  display: inline;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  text-align: center;
+  vertical-align:middle;
+  line-height:25px;
+  font-size: 1.2rem;
+  opacity: 1;
+  width: 25px;
+  height: 25px;
+  top: 30px;
+  right: 2px;
+  border-radius:12.5px;
+  color: #fff;
+  background-color: #FF5E00;
+}
